@@ -92,7 +92,16 @@ public class Main{
         //Neamt - 20
         g.addEdge(20, "Iasi", 19);
 
-        g.BFS("Arad", "Bucharest");
+        String start =args[0];
+        String end = args[1];
+        if(g.findEdge(start) == 0 || g.findEdge(end) == 0){
+            System.out.println("Cidade não encontrada");
+        }
+        else{
+            g.BFS(start, end);
+        }
+
+        
              
     }
 
