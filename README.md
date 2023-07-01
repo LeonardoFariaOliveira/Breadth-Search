@@ -8,8 +8,8 @@ O problema consistia em encontrar o menor caminho possível para a cidade indica
 conforme as cidades do mapa
 
 # Solução
-Primeiro mapeei o mapa em grafos, onde cada cidade é um nó e possui nó vizinhos(adjacentes). Sendo assim criei uma classe Nó que possui:
-* nomeName(nome do nó atual)
+Primeiro mapeei o mapa em grafos, onde cada cidade é um nó e possui nós vizinhos(adjacentes). Sendo assim criei uma classe Nó que possui:
+* nodeName(nome do nó atual)
 * cityName(o nome do vizinho)
 * pos(posição do vizinho)
   
