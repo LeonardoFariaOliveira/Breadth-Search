@@ -18,3 +18,18 @@ Arad possui 3 vizinhos então crio 3 objetos passando o mesmo nome e a mesma pos
 <img src='https://github.com/LeonardoFariaOliveira/Breadth-Search/assets/66142358/27040571-c476-4500-a48d-28fe717a67a1'/>
 
 Depois de criar o grafo, apliquei o algoritmo de busca em largura usando as classes: ListIterator, LinkedList e Queue do Java
+
+## Instalação
+
+```bash
+$ git clone https://github.com/LeonardoFariaOliveira/Breadth-Search
+$ cd Breadth-Search
+```
+
+## Running the app
+
+```bash
+$ javac Main.java
+# java Main <cidade-de-partida> <cidade-de-destino>
+$ java Main Arad Bucharest
+```
